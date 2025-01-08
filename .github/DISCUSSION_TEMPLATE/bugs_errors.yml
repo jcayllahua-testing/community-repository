@@ -1,0 +1,50 @@
+title: "[🐛Error: [Describe el problema brevemente]:  "
+labels: ["Bug & Errors"]
+
+body:
+  - type: markdown
+    value: "## Información básica para entender el error"
+      
+  - type: input
+    id: summary
+    attributes:
+      label: Resumen del Problema
+      description: "Describe brevemente el problema/error que estás presentando."
+      placeholder: "Ejemplo: Error al agregar plugin KunturCheckStyle"
+    validations:
+      required: true
+      
+  - type: markdown
+    value: "## Detalle del Problema"
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Descripción Detallada
+      description: "Proporciona todos los detalles relevantes, como qué estabas haciendo antes de que ocurriera el problema."
+      placeholder: |
+        Describe el problema, pasos para replicarlo, mensajes de error, etc.
+        Por ejemplo:
+        1. Agregué el plugin.
+        2. Intenté realizar la construcción del proyecto.
+        3. Apareció un mensaje de error: 'KunturCheckStyle ....'
+      render: bash
+    validations:
+      required: true
+
+  - type: markdown
+    value: |
+      ## Adjuntar Imágenes
+      Si tienes capturas de pantalla relacionadas con el problema:
+      - Arrastra y suelta las imágenes directamente en este formulario.
+      - O pega una imagen desde tu portapapeles (Ctrl+V o Cmd+V).
+      - Describe las imágenes en el campo siguiente si es necesario.
+
+  - type: textarea
+    id: image_description
+    attributes:
+      label: Descripción de Imágenes Adjuntas
+      description: "Si has adjuntado imágenes, proporciona una breve descripción para cada una."
+      placeholder: "Ejemplo: La captura muestra el mensaje de error al tratar de construir el proyecto."
+    validations:
+      required: false
