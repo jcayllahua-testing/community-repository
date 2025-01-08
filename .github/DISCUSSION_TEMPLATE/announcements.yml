@@ -36,6 +36,18 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: download
+    attributes:
+      label: Which area of this project could be most improved?
+      options:
+        - Documentation
+        - Pull request review time
+        - Bug fix time
+        - Release cadence
+    validations:
+      required: true
+
   - type: checkboxes
     id: read-receipt
     attributes:
