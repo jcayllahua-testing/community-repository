@@ -1,63 +1,24 @@
-name: Announcement
-description: Template for creating announcements
-# Announcement Template for GitHub Discussions
-
-labels:
-  - announcements
-
-
-title: "Important Update: [Topic/Change]"
+title: "[Announcement]:  "
+labels: ["Announcements"]
 
 body:
   - type: markdown
-    value: |
-      ## 🚨 Announcement: [Title of Announcement]
-      Welcome to the community! This is an important update regarding [Topic of the announcement].
-
+    attributes:
+      value: |
+        ## 🚨 Announcement: [Title of Announcement]
+        Welcome to the community! This is an important update regarding [Topic of the announcement].
+        
   - type: markdown
-    value: |
-      ### 📅 Date of the Announcement
-      [Insert Date]
+    attributes:
+      value: |
+        ### 📅 Date of the Announcement
+        [Insert Date]
       
   - type: markdown
-    value: |
-      ### Details:
-      [Provide a detailed description of the update or announcement.]
-
-  - type: markdown
-    value: |
-      ### What This Means for You:
-      [Explain how the announcement or update will impact the community, users, or project.]
-
-  - type: markdown
-    value: |
-      ### Action Required:
-      [If there’s any action the community needs to take, provide clear instructions here.]
-
-  - type: markdown
-    value: |
-      ### Additional Information:
-      [Include any additional relevant information, resources, or links.]
-
-  - type: input
-    id: contact
     attributes:
-      label: Contact Info (Optional)
-      description: "If you have any questions or concerns, feel free to reach out."
-      placeholder: "e.g., You can contact support at support@example.com."
-    validations:
-      required: false
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Announcement Priority
-      options:
-        - High
-        - Medium
-        - Low
-    validations:
-      required: true
+      value: |
+        ### Details:
+        [Provide a detailed description of the update or announcement.]
 
   - type: checkboxes
     id: read-receipt
