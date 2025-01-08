@@ -3,9 +3,8 @@ description: Template for creating announcements
 # Announcement Template for GitHub Discussions
 
 labels:
-  - announcement
-  - important
-  - update
+  - announcements
+
 
 title: "Important Update: [Topic/Change]"
 
