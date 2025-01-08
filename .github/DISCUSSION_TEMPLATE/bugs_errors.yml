@@ -3,7 +3,8 @@ labels: ["Bug & Errors"]
 
 body:
   - type: markdown
-    value: "## Información básica para entender el error"
+    attributes:
+      value: "## Información básica para entender el error"
       
   - type: input
     id: summary
@@ -15,7 +16,8 @@ body:
       required: true
       
   - type: markdown
-    value: "## Detalle del Problema"
+    attributes:
+      value: "## Detalle del Problema"
 
   - type: textarea
     id: details
@@ -33,12 +35,13 @@ body:
       required: true
 
   - type: markdown
-    value: |
-      ## Adjuntar Imágenes
-      Si tienes capturas de pantalla relacionadas con el problema:
-      - Arrastra y suelta las imágenes directamente en este formulario.
-      - O pega una imagen desde tu portapapeles (Ctrl+V o Cmd+V).
-      - Describe las imágenes en el campo siguiente si es necesario.
+    attributes:
+      value: |
+        ## Adjuntar Imágenes
+        Si tienes capturas de pantalla relacionadas con el problema:
+        - Arrastra y suelta las imágenes directamente en este formulario.
+        - O pega una imagen desde tu portapapeles (Ctrl+V o Cmd+V).
+        - Describe las imágenes en el campo siguiente si es necesario.
 
   - type: textarea
     id: image_description
