@@ -48,6 +48,20 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: improvements_2
+    attributes:
+      label: Top 3 improvements
+      description: "What are the top 3 improvements we could make to this project?"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
+
   - type: checkboxes
     id: read-receipt
     attributes:
