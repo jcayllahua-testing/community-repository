@@ -1,5 +1,5 @@
 title: "[📢Announcement]:  "
-labels: ["Announcements"]
+labels: ["announcements"]
 
 body:
   - type: markdown
