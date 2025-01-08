@@ -6,8 +6,9 @@
 
 ## Change template on click
 
-[Use 🐛 Bugfix PR Template](?expand=1&&template=pull_request_bugfix.md)
-[Use ✨ Feature PR Template](?expand=1&&template=pull_request_feature.md)
+[Use 🐛 Bugfix PR Template](?expand=1&&template=pr_bugfix.md)
+
+[Use ✨ Feature PR Template](?expand=1&&template=pr_feature.md)
 
 
 ## Type of Change
