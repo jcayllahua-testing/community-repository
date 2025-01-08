@@ -1,5 +1,5 @@
 title: "[🐛Error: [Describe el problema brevemente]:  "
-labels: ["Bugs & Errors"]
+labels: ["Bugs & Errors", "bug"]
 
 body:
   - type: markdown
