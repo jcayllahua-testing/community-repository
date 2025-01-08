@@ -8,11 +8,12 @@ body:
         ## 🚨 Announcement: [Title of Announcement]
         Welcome to the community! This is an important update regarding [Topic of the announcement].
         
-  - type: markdown
+  - type: input
+    id: announcement_date
     attributes:
-      value: |
-        ### 📅 Date of the Announcement
-        [Insert Date]
+      label: Date
+      description: The date of your announcement (YYYY-MM-DD).
+      placeholder: Enter the date
       
   - type: markdown
     attributes:
