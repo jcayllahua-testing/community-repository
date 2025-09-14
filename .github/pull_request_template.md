@@ -10,7 +10,6 @@
 
 [Use ✨ Feature PR Template](?expand=1&&template=pr_feature.md)
 
-https://github.com/jcayllahua-testing/community-repository/compare/main...feature/test-pr-templates?quick_pull=1&template=pr_feature.md
 ## Type of Change
 <!-- Please delete options that are not relevant. -->
 - [ ] 🐛 Bugfix
